@@ -1,0 +1,125 @@
+.parallax-image {
+    background-image: url('https://images.unsplash.com/photo-1625334666162-8ad10e7332d2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-attachment: cover; /* Adicionando a propriedade para fixar a imagem */
+}
+
+.profile-section {
+  text-align: center;
+  margin-top: 300px; /* Ajuste conforme necessário para posicionar a nova seção */
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;
+  margin-top: 500px; /* Ajuste conforme necessário */
+  font-size: 30px;
+  font-family: 'Arial', sans-serif;
+  font-weight: lighter;
+  color: rgb(141, 140, 140);
+}
+
+.about-h2 {
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+}
+
+.cor-destacada {
+  color: rgb(167, 7, 241);
+  font-weight: lighter;
+}
+
+.about-info {
+  width: 40%;
+  text-align: justify;
+}
+
+.profile-vertical {
+  width: 20%; /* Reduz a largura para a foto retangular */
+  margin-left: 50px; /* Ajuste a margem conforme necessário */
+}
+
+.profile-vertical img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilo base dos ícones */
+.social-icons a {
+  display: inline-block;
+  margin: 0 5px; /* Espaçamento entre os ícones */
+}
+
+/* Estilo dos contêineres das bolas */
+.icon-container {
+  width: 50px; /* Largura da bola */
+  height: 50px; /* Altura da bola */
+  border-radius: 50%; /* Cria a forma circular */
+  background-color: #585757; /* Cor da bola */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Transição ao passar o mouse */
+}
+
+/* Estilo dos ícones dentro dos contêineres */
+.icon {
+  width: 24px; /* Ajuste a largura do ícone conforme necessário */
+  height: 24px; /* Ajuste a altura do ícone conforme necessário */
+  transition: filter 0.3s ease; /* Transição ao passar o mouse */
+  color: rgb(255, 51, 0);
+}
+
+/* Estilo ao passar o mouse por cima */
+.icon-container:hover .icon {
+  filter: brightness(0) invert(1); /* Efeito ao passar o mouse (inverter a cor do ícone) */
+}
+
+/* Espaçamento para ajustar o layout */
+.social-icons {
+  margin-top: 20px;
+}
+
+/*
+font-family: 'Arial', sans-serif;
+font-family: 'Helvetica', sans-serif;
+font-family: 'Times New Roman', serif;
+font-family: 'Courier New', monospace;
+font-family: 'Georgia', serif;
+font-family: 'Verdana', sans-serif;
+font-family: 'Tahoma', sans-serif;
+font-family: 'Trebuchet MS', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
